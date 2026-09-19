@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EventCard" format=3 uid="uid://d36bt3kbp74id"]
+
+[ext_resource type="Script" uid="uid://cm6ad2cxav7lb" path="res://Scripts/EventCard.gd" id="1_eye44"]
+
+[resource]
+script = ExtResource("1_eye44")
+id = "ev008"
+title = "Record Album"
+description = "Time to go into the studio and record your album"
+requirements = "x songs written"
+difficulty = 12
+outcomes = Array[String](["An amazing album", "A good album", "A mediocre album", "People will hate this album "])
+metadata/_custom_type_script = "uid://cm6ad2cxav7lb"

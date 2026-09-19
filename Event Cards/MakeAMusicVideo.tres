@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EventCard" format=3 uid="uid://i3bgg8c03ins"]
+
+[ext_resource type="Script" uid="uid://cm6ad2cxav7lb" path="res://Scripts/EventCard.gd" id="1_8cv50"]
+
+[resource]
+script = ExtResource("1_8cv50")
+id = "ev009"
+title = "Make a Music Video"
+description = "Light's, camera, action! It's time to make the video masterpiece you've always dreamed of. "
+requirements = "have a director"
+difficulty = 14
+outcomes = Array[String](["Incredible video! Instant classic!", "Good video. This might go viral. ", "Meh. We'll be lucky if people watch this at all. ", "People are going to hate this video. "])
+metadata/_custom_type_script = "uid://cm6ad2cxav7lb"

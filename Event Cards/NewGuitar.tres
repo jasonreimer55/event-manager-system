@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EventCard" format=3 uid="uid://3gw13ugdmsmo"]
+
+[ext_resource type="Script" uid="uid://cm6ad2cxav7lb" path="res://Scripts/EventCard.gd" id="1_s4hwo"]
+
+[resource]
+script = ExtResource("1_s4hwo")
+id = "ev001"
+title = "New Guitar"
+description = "You receive a new guitar in the mail from your dearly departed grandmother. As you play, it makes the most beautiful music. "
+requirements = "None "
+difficulty = 1
+outcomes = Array[String](["Epic Song ", "Great Song", "Bad Song. Don't worry! You'll get better! ", "Oh no! Maybe you should try another instrument. "])
+metadata/_custom_type_script = "uid://cm6ad2cxav7lb"

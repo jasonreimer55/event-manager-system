@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EventCard" format=3 uid="uid://bukjyj7mslck5"]
+
+[ext_resource type="Script" uid="uid://cm6ad2cxav7lb" path="res://Scripts/EventCard.gd" id="1_52uud"]
+
+[resource]
+script = ExtResource("1_52uud")
+id = "ev003"
+title = "Broken String"
+description = "A string pops off in a loud twang! Lucky for you, you have a box of strings lying around here somewhere. "
+requirements = "Broken String stat. "
+difficulty = 5
+outcomes = Array[String](["Perfect! Your guitar is in the best shape. ", "Great work. Now you can play again. ", "Oh no! It looks like you'll have to try again. ", "Another string broke! "])
+metadata/_custom_type_script = "uid://cm6ad2cxav7lb"

@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://bdpufqhbkdrop"]
 
+[ext_resource type="Script" uid="uid://xigi68iafen8" path="res://Scripts/EventManager.gd" id="1_n5240"]
+
 [node name="Node2D" type="Node2D" unique_id=542691083]
+script = ExtResource("1_n5240")
 
 [node name="Button" type="Button" parent="." unique_id=1809560864]
 offset_left = 552.0
