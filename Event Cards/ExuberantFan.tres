@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EventCard" format=3 uid="uid://cq4k1kfpvefno"]
+
+[ext_resource type="Script" uid="uid://cm6ad2cxav7lb" path="res://Scripts/EventCard.gd" id="1_ugbja"]
+
+[resource]
+script = ExtResource("1_ugbja")
+id = "ev010"
+title = "Exuberant Fan"
+description = "They have followed you for your entire career, and everywhere they go, they bring enthusiastic support. "
+value = 1
+metadata/_custom_type_script = "uid://cm6ad2cxav7lb"
